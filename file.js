@@ -132,7 +132,7 @@ CubeTools.linkBtns()
 CubeTools.log('===== Done =====', 'lime')
 
 
-// Updateing Part
+// Updating Part
 
 fetch('https://raw.githubusercontent.com/BluZed/CubeShotTools/main/version').then(res=>res.text()).then((version)=>{
     if(parseInt(version) === parseInt(CubeTools.version)){
