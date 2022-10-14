@@ -1,2 +1,2 @@
 # CubeShotTools
-More features for cubeshot.io
+Not done yet. 
