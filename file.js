@@ -135,7 +135,7 @@ CubeTools.log('===== Done =====', 'lime')
 // Updating Part
 
 fetch('https://raw.githubusercontent.com/BluZed/CubeShotTools/main/version').then(res=>res.text()).then((version)=>{
-    if(parseInt(version) === parseInt(CubeTools.version)){
+    if(parseInt(version) != parseInt(CubeTools.version)){
         if(window.confirm('New Version of CubeShotTools Availaible! - v'+version + "Press OK to go to repository")){
             window.location.href = ('https://github.com/BluZed/CubeShotTools')
         }
